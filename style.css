@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +8,13 @@
 
 body {
     line-height: 1.6;
+    background-color: #1e1e1e; 
+    color: #d0d0d0; 
 }
 
 header {
-    background-color: #222;
-    color: #fff;
+    background-color: #0d1b2a; 
+    color: #ffffff;
     padding: 10px 0;
     text-align: center;
 }
@@ -32,20 +34,21 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #a8dadc;
     text-decoration: none;
     font-size: 18px;
 }
 
 nav ul li a:hover {
-    color: #ff9900;
+    color: #457b9d; 
 }
 
-/* Hero Section */
+
 .hero-section {
-    background-color: #f4f4f4;
+    background-color: #14213d; 
     text-align: center;
     padding: 50px 20px;
+    color: #ffffff;
 }
 
 .hero-section h2 {
@@ -61,22 +64,23 @@ nav ul li a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff9900;
+    background-color: #0077b6; 
     color: white;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #e68a00;
+    background-color: #023e8a; 
 }
 
-/* Highlights Section */
+
 #highlights {
     padding: 50px 20px;
     text-align: center;
-    background-color: #fff;
+    background-color: #1e1e1e; 
 }
 
 .highlights-container {
@@ -93,17 +97,25 @@ nav ul li a:hover {
 .highlight-item img {
     max-width: 100%;
     border-radius: 5px;
+    border: 2px solid #457b9d; 
 }
 
 .highlight-item h3 {
     margin-top: 15px;
     font-size: 24px;
+    color: #a8dadc; 
 }
 
-/* About Page Styling */
+.highlight-item p {
+    color: #b0b0b0; 
+}
+
+
 #about, #mission {
     padding: 50px 20px;
     text-align: center;
+    background-color: #0d1b2a; 
+    color: #ffffff;
 }
 
 .about-image, .mission-image {
@@ -114,11 +126,76 @@ nav ul li a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); 
 }
 
 .about-image p, .mission-image p {
     font-size: 16px;
-    color: #555;
+    color: #b0b0b0; 
     margin-top: 10px;
+}
+
+
+footer {
+    background-color: #1e1e1e; 
+    color: #a8dadc; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #14213d; 
+    color: #ffffff;
+}
+
+#contact h2 {
+    color: #a8dadc;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #d0d0d0; 
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #a8dadc; 
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #457b9d; 
+    border-radius: 5px;
+    background-color: #1e1e1e; 
+    color: #d0d0d0; 
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6; 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #023e8a; 
 }

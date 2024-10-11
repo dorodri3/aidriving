@@ -265,3 +265,52 @@ footer {
     background-color: #023e8a; 
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-section {
+        padding: 30px 15px;
+    }
+
+    .hero-section h2 {
+        font-size: 28px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .highlights-container {
+        flex-direction: column;
+    }
+
+    .highlight-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .about-image img, .mission-image img, .service-item img {
+        width: 100%;
+    }
+
+    .service-item h3, .highlight-item h3, #contact h2, #services h2 {
+        font-size: 24px;
+    }
+
+    .contact-form, .service-item p {
+        font-size: 14px;
+    }
+
+    .cta-button, .contact-form button {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+}
